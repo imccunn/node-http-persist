@@ -1,0 +1,18 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
+  "env": {
+  	"node": true,
+  	"es6": true
+  },
+  "rules": {
+    "camelcase": 0,
+    "semi": 2,
+    "eqeqeq": 2,
+    "quotes": [2, "single"],
+    "no-trailing-spaces": [1, {"skipBlankLines": true}],
+    "no-empty": [2, {"allowEmptyCatch": true}]
+  }
+}
