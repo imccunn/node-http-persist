@@ -37,7 +37,6 @@ describe('Server/list should respond to http request methods.', function() {
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
-
         done();
       });
   });
@@ -49,7 +48,6 @@ describe('Server/list should respond to http request methods.', function() {
       .end(function(err, res) {
         expect(err).to.eql(null);
         expect(res).to.have.status(200);
-
         done();
       });
   });
